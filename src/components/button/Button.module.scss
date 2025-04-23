@@ -8,6 +8,7 @@
   text-align: center;
   box-sizing: border-box;
   border: 1px solid #000;
+  background-color: #ffc802;
 }
 
 .button:active {
@@ -15,5 +16,13 @@
 }
 
 .button:hover {
-  background: var(--gold, #ffc802);
+  background: var(--gold, #FFEDAB);
+}
+
+.button[type="reset"] {
+	background-color: white;
+}
+
+.button[type="reset"]:hover {
+	background-color: #EEEEEE;
 }
